@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.muhammadaqil.recyclerview.databinding.ListItemPemainBinding
 import com.muhammadaqil.recyclerview.model.Pemain
 
-class AdapterTeamBola(private val context: Context,
+class AdapterTeamBola(private val context : Context,
                       private var data : List<Pemain>?,
                       private val itemClick : OnClickListener)
         : RecyclerView.Adapter<AdapterTeamBola.ViewHolder>() {

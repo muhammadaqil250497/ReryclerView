@@ -12,8 +12,7 @@
         android:orientation="vertical"
         android:layout_marginEnd="5dp"
         android:layout_marginStart="5dp"
-
-        tools:ignore="MissingConstraints">
+        tools:ignore = "MissingConstraints">
 
         <TextView
             android:id="@+id/textView"
@@ -37,7 +36,6 @@
         tools:listitem="@layout/list_item_pemain"
         android:layout_marginTop="40dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-
         />
 
 
